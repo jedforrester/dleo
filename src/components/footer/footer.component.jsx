@@ -2,12 +2,11 @@ import React from 'react';
 
 import './footer.styles.scss';
 
-import { Link } from 'react-router-dom';
-
-import { ReactComponent as Logo} from '../../assets/crown.svg';
+import EmailSubscribe from '../emailsubscribe/emailsubscribe.component';
 
 const Footer = () => (
     <div className='footer'>
+    <EmailSubscribe />
    footer placeholder
     </div>
 );

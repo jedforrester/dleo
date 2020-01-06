@@ -31,12 +31,6 @@ class Directory extends Component {
                   linkUrl: 'shop/sneakers'
                 },
                 {
-                  title: 'fur babies',
-                  imageUrl: 'https://i.ibb.co/px2tCc3/jackets.png',
-                  id: 4,
-                  linkUrl: 'shop/womens'
-                },
-                {
                   title: 'get started!',
                   imageUrl: 'https://static.youngliving.com/productimages/large/26666.jpg',
                   id: 5,

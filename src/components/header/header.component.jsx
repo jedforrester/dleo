@@ -4,7 +4,6 @@ import './header.styles.scss';
 
 import { Link } from 'react-router-dom';
 
-import { ReactComponent as Logo} from '../../assets/crown.svg';
 import logoimg from '../../assets/logo.png';
 
 const Header = () => (
@@ -18,20 +17,20 @@ const Header = () => (
         DAILY LIVING ESSENTIAL OILS
     </div>
     <div className='options'>
-        <Link className='option' to='/dailyhacks'>
+        <Link className='option' to='/daily-hacks'>
             DAILY HACKS
         </Link>
-        <Link className='option' to='/cleaninganddiffusing'>
-                CLEANING & DIFFUSING
-        </Link>
-        <Link className='option' to='/healthandwellness'>
+        <Link className='option' to='/health-and-wellness'>
             HEALTH & WELLNESS
         </Link>
-        <Link className='option' to='/getstarted'>
-                GET STARTED!
+        <Link className='option' to='/cleaning-and-diffusing'>
+            CLEANING & DIFFUSING
+        </Link>
+        <Link className='option' to='/get-started'>
+            GET STARTED!
         </Link>
     </div>
     </div>
 );
 
-export default Header;
+export default Header
